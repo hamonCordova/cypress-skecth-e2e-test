@@ -8,8 +8,8 @@
     "cy:open:tablet": "cypress open --config viewportWidth=767,viewportHeight=480",
     "test": "cypress run",
     "test:tablet": "cypress run --config viewportWidth=767,viewportHeight=480 --spec cypress/integration/authenticatedScenarios.spec.js",
-    "lint:cypress": "eslint cypress/**/*.js",
-    "lint:fix:cypress": "eslint cypress/**/*.js --fix"
+    "lint": "eslint cypress/**/*.js",
+    "lint:fix": "eslint cypress/**/*.js --fix"
   },
   "author": "",
   "license": "ISC",
