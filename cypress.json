@@ -1,5 +1,6 @@
 {
   "baseUrl": "https://notes-serverless-app.com",
+  "projectId": "sc7rmc",
   "defaultCommandTimeout": 20000,
   "requestTimeout": 20000,
   "taskTimeout": 20000,
