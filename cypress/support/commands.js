@@ -1,5 +1,5 @@
-import CrudCommands from './note-commands'
-import SettingsCommands from './settings-commands'
+import './note-commands'
+import './settings-commands'
 
 Cypress.Commands.add('fillSignupFormAndSubmit', (email, password) => {
   cy.visit('/signup')
