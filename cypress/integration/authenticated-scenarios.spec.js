@@ -39,8 +39,8 @@ describe('Authenticated Scnearios', () => {
 
   })
 
-  describe.only('Logout', () => {
-    it('should logout successfully', () => {
+  describe('Logout', () => {
+    it('should logout successfully', {tags: '@desktop-and-tablet'}, () => {
       cy.login()
       cy.visit('/')
 
