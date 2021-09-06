@@ -1,8 +1,7 @@
 {
-  "name": "cypress-intermediary",
+  "name": "cypress-skecth-e2e-test",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Sample project to demonstrate end-to-end (e2e) tests written with Cypress running on a CI service.",
   "scripts": {
     "cy:open": "cypress open",
     "cy:open:tablet": "cypress open --config viewportWidth=767,viewportHeight=480",
@@ -11,8 +10,8 @@
     "lint": "eslint cypress/**/*.js",
     "lint:fix": "eslint cypress/**/*.js --fix"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Hamon de Córdova Jorge <hamoncj@gmail.com> (https://hamoncordova.com.br)",
+  "license": "MIT",
   "devDependencies": {
     "cypress": "^8.2.0",
     "cypress-file-upload": "^5.0.8",
